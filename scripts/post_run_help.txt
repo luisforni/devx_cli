@@ -1,0 +1,8 @@
+╔══════════════════════════════════════════════════╗
+║ USAGE: ./devx.sh  service   command   options    ║
+║                                                  ║
+║ SERVICES: health | loadtest | linkscan | secrets ║
+║           docgen | securityscan |                ║
+║                                                  ║
+║ HELP: ./devx.sh  service   command  --help       ║
+╚══════════════════════════════════════════════════╝
