@@ -1,0 +1,28 @@
+╔══════════════════════════════════════════════════════╗
+║ DevX – Modular Console Toolkit 🖥️⚡                   ║
+╠══════════════════════════════════════════════════════╣
+║ USAGE                                                ║
+║   ./devx.sh <service> <command> [options]            ║
+║   ./devx.sh <service> --help                         ║
+╠══════════════════════════════════════════════════════╣
+║ SERVICES                                             ║
+║   lint | loadtest | health  | securityscan           ║
+║   sbom | linkscan | docgen  | coverage               ║
+║   perf | depgraph | secrets | dockercheck            ║
+╠══════════════════════════════════════════════════════╣
+║ EXAMPLES (Linux/macOS)                               ║
+║   ./devx.sh health run .                             ║
+║   ./devx.sh loadtest run https://api --rps 10        ║
+║   ./devx.sh linkscan run https://web.com             ║
+║   ./devx.sh secrets run .                            ║
+║   ./devx.sh docgen run . --out DOCS.md               ║
+║   ./devx.sh securityscan run https://web.com         ║
+║   ./devx.sh sbom run requirements.txt --osv          ║
+║   ./devx.sh lint run . --fix                         ║
+║   ./devx.sh depgraph run . --out deps.json           ║
+║   ./devx.sh perf run examples/demo.py                ║
+║   ./devx.sh coverage run tests/                      ║
+║   ./devx.sh dockercheck run /home/test/Dockerfile    ║
+╠══════════════════════════════════════════════════════╣
+║ Windows → bash devx.sh <service> <command>           ║
+╚══════════════════════════════════════════════════════╝
